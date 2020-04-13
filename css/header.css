@@ -1,15 +1,3 @@
-html {
-    background-color: black;
-}
-
-body {
-    font-family: sans-serif;
-    color: grey;
-    background: black;
-    overflow-y: scroll;
-    font-size: 16px;
-}
-
 header {
     position: fixed;
     top: 0;
@@ -27,11 +15,6 @@ header {
     z-index: 10;
 }
 
-footer {
-    position: relative;
-    margin-top: 80px;
-}
-
 input {
     width: 100%;
     border: none;
@@ -39,11 +22,6 @@ input {
 
 input:focus {
     outline: none;
-}
-
-a {
-    text-decoration: none;
-    color: white;
 }
 
 .h-left {
@@ -65,44 +43,4 @@ a {
     font-size: 22px;
     font-weight: bold;
     color: white;
-}
-
-.container {
-    left: 0;
-    width: 100%;
-    min-height: 150vh;
-    margin-top: 7vh;
-}
-
-.footer-content {
-    text-align: center;
-}
-
-.body {
-    display: grid;
-    left: 0;
-    width: 100%;
-    grid-template-columns: 150px 3fr 150px;
-}
-
-.b-center {
-	display: grid;
-    width: 100%;
-    margin-top: 20px;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-gap: 8px;
-}
-
-.item {
-    width: 200px;
-    height: 200px;
-	border: 2px solid white;
-}
-
-.map {
-	grid-row-start: 1;
-  	grid-row-end: 3;
-  	grid-column-start: 4;
-  	grid-column-end: 6;
-  	border: 2px solid white;
 }
