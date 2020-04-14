@@ -15,32 +15,37 @@ header {
     z-index: 10;
 }
 
-input {
-    width: 100%;
-    border: none;
-}
-
 input:focus {
     outline: none;
 }
 
-.h-left {
-    border: 1px solid white;
-}
-
-.h-center {
+.h-center, .h-right {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
-}
-
-.h-right {
-    border: 1px solid white;
 }
 
 .title {
     font-size: 22px;
     font-weight: bold;
     color: white;
+}
+
+.search-container {
+    display: flex;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.search-container > input {
+    width: 100%;
+    border: none;
+    font-weight: bold;
+}
+
+.search-container > img {
+    margin-left: 5px;
+    cursor: pointer;
 }
